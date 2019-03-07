@@ -3,12 +3,18 @@
     "name": "Death to mailto",
     "version": "1.0",
     "description": "Extension to remove mailto links to just copy the email address",
+    "web_accessible_resources": [
+        "pnotify/pnotify.custom.min.js",
+        "jquery-3.3.1.min.js",
+        "merged-jquery-3.3.1.min-pnotify.custom.min.js"
+    ],
     "content_scripts": [
         {
             "matches": [
                 "<all_urls>"
             ],
-            "js": ["content.js"]
+            "js": ["content.js"],
+            "css": ["pnotify/pnotify.custom.min.css"]
         }
     ]
 }
