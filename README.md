@@ -11,7 +11,11 @@ See [Wikipedia](https://en.wikipedia.org/wiki/Mailto)
 
 Often this happens:
 
+![What happens when you click on a mailto url](https://github.com/jeetdas/Death-to-mailto/blob/master/Screenshot.png?raw=true)
+
 My reaction is way too often:
+
+![Funny reaction](https://github.com/jeetdas/Death-to-mailto/blob/master/reaction.gif?raw=true)
 
 ## So what does this project do?
 
