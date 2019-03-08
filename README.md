@@ -23,3 +23,7 @@ Looks for all *mailto* links in a page, substitutes the *href* part to execute s
 
 - [x] Doesn't break the user flow/experience
 - [x] Shows what happened upon clicking the url
+
+## What it looks like?
+
+![With project installed](https://github.com/jeetdas/Death-to-mailto/blob/master/Screenshot-with-package.png?raw=true)
