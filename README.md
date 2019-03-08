@@ -26,4 +26,4 @@ Looks for all *mailto* links in a page, substitutes the *href* part to execute s
 
 ## What it looks like?
 
-![With project installed](https://github.com/jeetdas/Death-to-mailto/blob/master/Screenshot-with-package.png?raw=true)
+![With project installed](https://github.com/jeetdas/Death-to-mailto/blob/master/Screenshot-with-package.gif?raw=true)
