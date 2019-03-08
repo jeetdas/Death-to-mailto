@@ -5,7 +5,7 @@ s.src = chrome.runtime.getURL('merged-jquery-3.3.1.min-pnotify.custom.min.js');
 const anchorTags = document.body.getElementsByTagName("a");
 
 Array.from(anchorTags).forEach(function (tag) {
-    if (tag.href.indexOf("mailto") !== -1) {
+    if (tag.href.indexOf("mailto:") !== -1) {
         var regex = /\S+[a-z0-9]@[a-z0-9\.]+/img
         var emailAddress = tag.href.split('?')[0].split('&')[0].match(regex)[0];
         emailAddress = emailAddress.replace("mailto:", "");
